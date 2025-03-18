@@ -57,7 +57,7 @@ header {
 .chat-item {
   display: flex;
   align-items: center;
-  padding: 12px 15px;
+  padding: 20px 15px; /* 내부 패딩 증가 */
   border-bottom: 1px solid #eee;
   background: white;
   cursor: pointer;
@@ -68,20 +68,27 @@ header {
   background: #f9f9f9;
 }
 
+/* 채팅 항목 간 간격 증가 */
+.chat-list li {
+  margin-bottom: 24px; /* 각 채팅 항목 사이 간격 증가 */
+}
+
 /* 프로필 이미지 */
 .chat-icon {
-  width: 50px;
-  height: 50px;
+  width: 55px; /* 프로필 사진 크기 소폭 증가 */
+  height: 55px;
   border-radius: 50%;
-  margin-right: 12px;
+  margin-right: 20px; /* 이미지와 텍스트 사이 간격 증가 */
   object-fit: cover;
   background-color: #ddd;
 }
 
+/* 채팅 정보 */
 .chat-info {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  max-width: 320px; /* 채팅 내용이 잘리지 않도록 너비 증가 */
 }
 
 .chat-info p {
@@ -90,20 +97,20 @@ header {
 
 .chat-info p:first-child {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px; /* 닉네임 크기 약간 키움 */
 }
 
 .chat-info .message {
-  font-size: 14px;
+  font-size: 15px; /* 메시지 크기 살짝 키움 */
   color: #666;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 280px;
+  max-width: 320px; /* 더 넓은 텍스트 영역 */
 }
 
 .chat-info .time {
-  font-size: 12px;
+  font-size: 13px;
   color: #999;
-  margin-top: 3px;
+  margin-top: 5px; /* 시간과 메시지 사이 간격 증가 */
 }
