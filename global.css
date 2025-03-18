@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+p {
+  margin: 0;
+}
+
+.back {
+  width: 450px;
+  background-color: white;
+  margin: 0 auto;
+  min-height: 100vh;
+}
