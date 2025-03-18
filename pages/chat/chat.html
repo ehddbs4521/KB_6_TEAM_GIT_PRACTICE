@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../../global.css" />
+    <title>당근마켓 채팅</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="back"></div>
+    <header>
+      <div class="top-bar"></div>
+      <h2>채팅</h2>
+      <div class="filter-buttons">
+        <button class="active">전체</button>
+        <button>판매</button>
+        <button>구매</button>
+        <button>안 읽은 채팅방</button>
+      </div>
+    </header>
+    <main>
+      <ul class="chat-list">
+        <li>
+          <div class="chat-item">
+            <img src="carrot_logo.png" alt="당근마켓" class="chat-icon" />
+            <div class="chat-info">
+              <p>당근 ✅</p>
+              <p class="message">개인정보 이용내역 안내 🥕</p>
+              <span class="time">5달 전</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="chat-item">
+            <img src="default_avatar.png" alt="유저" class="chat-icon" />
+            <div class="chat-info">
+              <p>꼬물이</p>
+              <p class="message">넵!! 🥺</p>
+              <span class="time">1년 전</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="chat-item">
+            <img src="default_avatar.png" alt="유저" class="chat-icon" />
+            <div class="chat-info">
+              <p>손베베</p>
+              <p class="message">이렇게 예약해주실수 있으신가요</p>
+              <span class="time">3년 전</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <nav class="bottom-nav">
+        <a href="#">홈</a>
+        <a href="#">동네생활</a>
+        <a href="#">동네지도</a>
+        <a href="#" class="active">채팅</a>
+        <a href="#">나의 당근</a>
+      </nav>
+    </footer>
   </body>
 </html>
