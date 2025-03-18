@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+}
+.post {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+.post img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.post-info {
+  flex: 1;
+}
+.post-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.post-location {
+  font-size: 12px;
+  color: gray;
+}
+.post-price {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+}
