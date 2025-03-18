@@ -1,0 +1,106 @@
+.back {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-bottom: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+}
+
+.titleText {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subTitleText {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.service {
+  display: flex;
+  gap: 5px;
+}
+
+.myContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.profileWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 800;
+}
+
+.temperature {
+  color: rgb(10, 177, 248);
+  font-weight: 600;
+  background-color: rgb(214, 246, 246);
+  border-radius: 7px;
+  display: flex;
+  padding: 2px 5px;
+  font-size: small;
+}
+
+.payButton {
+  color: rgb(255, 128, 0);
+  background-color: #ffeadb;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 13px 0;
+  font-size: 15px;
+}
+
+.ri-settings-3-line {
+  font-size: 25px;
+}
+
+.ri-account-circle-fill {
+  font-size: 50px;
+  color: lightgray;
+}
+
+.ri-arrow-right-s-line {
+  font-size: 20px;
+  color: rgb(169, 169, 169);
+}
+
+.ri-heart-line {
+  font-size: 25px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
